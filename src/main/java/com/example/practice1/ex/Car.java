@@ -1,4 +1,4 @@
-package com.example.practice1.repractices;
+package com.example.practice1.ex;
 
 public class Car {
     
@@ -11,7 +11,18 @@ public class Car {
     String name;
     int gasoline;
 
-
+    /**
+     * コンストラクタを定義
+     */
+    public Car(){
+    }
+    
+    public Car(int speed, String name, int gasoline) {
+        this.speed = speed;
+        this.name = name;
+        this.gasoline = gasoline;
+    }
+    
     /**
      * アクセルを踏む
      * 速度を１０増やす
@@ -35,5 +46,12 @@ public class Car {
      */
     void refule(int newGasoline){
         gasoline = gasoline + newGasoline;
+    }
+
+    /**
+     * フィールド変数の中身をコンソールに出力するためのメソッド
+     */
+    void display(){
+        System.out.println(name + "の速度は" + speed + "km/hでガゾリン残量は" + gasoline + "です" );
     }
 }

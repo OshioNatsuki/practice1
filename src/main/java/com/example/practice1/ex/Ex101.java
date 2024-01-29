@@ -1,4 +1,4 @@
-package com.example.practice1.repractices;
+package com.example.practice1.ex;
 
 /**
  * オブジェクト指向　演習１　Carクラスをインスタンス化
