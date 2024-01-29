@@ -11,7 +11,6 @@ public record continueEx() {
                 System.out.println("スキップします");
                 continue;
             }
-
             System.out.println("for文が実行されました");
         }
     }   
