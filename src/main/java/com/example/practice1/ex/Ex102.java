@@ -1,5 +1,6 @@
 package com.example.practice1.ex;
 
+
 /**
  * 演習２
  * Carクラスのオブジェクトを２つ生成してメソッドを呼び出す
