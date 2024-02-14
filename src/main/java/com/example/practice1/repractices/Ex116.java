@@ -8,5 +8,17 @@ package com.example.practice1.repractices;
  * 値がnullの場合は「空」が表示されるようにしてください
  */
 public class Ex116 {
-    
+
+    public static void main(String[] args) {
+        
+        String[] names = {"夏生", null, null, null, null,"夏生", null, null, null, null, null };
+        
+        for(String name:names){
+                if (name == null) {
+                    System.out.println(" 空 ");
+                } else {
+                    System.out.println(name);
+                }
+            }
+    }
 }
