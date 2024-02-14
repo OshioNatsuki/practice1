@@ -11,4 +11,13 @@ package com.example.practice1.repractices;
  */
 public class Ex47 {
     
+    public static void main(String[] args) {
+        double result = average(79,80,100);
+        System.out.println(result);
+    }
+
+    static double average(int num1,int num2,int num3){
+        double answer = (num1 + num2 + num3) / 3.0;
+        return answer;
+    }
 }
