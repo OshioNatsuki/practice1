@@ -1,5 +1,7 @@
 package com.example.practice1.medals;
 
+import com.example.practice1.resolveMedal.Employee;
+
 public interface Main {
     public static void main(String[] args) {
 
@@ -7,10 +9,6 @@ public interface Main {
                                 new Employee("海田", 220000),
                                 new Employee("川田", 240000) };
 
-        Material[] materials = { new Material("金", 10000),
-                                new Material("銀", 5000),
-                                new Material("銅", 1000),
-                                new Material("木", 500) };
         
     }
 }
