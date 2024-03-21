@@ -1,0 +1,25 @@
+header {
+    background-color: aqua;
+    width: 600px;
+    height: 80px;
+}
+
+.section1 {
+    background-color: #009933;
+    width: 280px;
+    height: 500px;
+}
+.section2 {
+    background-color: #e066ff;
+    width: 620px;
+    height: 500px;
+}
+
+footer {
+    background-color: palevioletred;
+    width: 600px;
+    height: 60px;
+}
+.main {
+    display: flex;
+}

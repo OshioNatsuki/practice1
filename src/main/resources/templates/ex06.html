@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <th>4月</th>
+            <td>29日</td>
+            <td>昭和の日</td>
+        </tr>
+        <tr>
+            <th rowspan="3">5月</th>
+            <td>3日</td>
+            <td>憲法記念日</td>
+        </tr>
+        <tr>
+            <td>4日</td>
+            <td>緑の日</td>
+        </tr>
+        <tr>
+            <td>5日</td>
+            <td>子どもの日</td>
+        </tr>
+        <tr>
+            <th>7月</th>
+            <td>第三月曜日</td>
+            <td>海の日
+            </td>
+        </tr>
+    </table>
+
+    <form action="#" method="get">
+        <label for="namefiled">名前：</label>
+            <input id="namefiled" type="text" name="name" id="name">
+            <input type="hidden" name="name" th:value="${name}">
+            <select name="hobby" id="">
+                <option value="swim">水泳</option>
+                <option value="base">野球</option>
+                <option value="foot">サッカー</option>
+            </select>
+        <button > <img src="111_key.png" alt="image">送信</button>
+        <button type="reset">reset</button>
+    </form>
+
+<br>
+
+    <table border="1">
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td rowspan="3">4</td>
+        </tr>
+        <tr>
+            <td colspan="4">5</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>7</td>
+            <td>8</td>
+        </tr>
+    </table>
+</body>
+</html>
