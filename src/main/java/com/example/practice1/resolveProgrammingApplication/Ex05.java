@@ -9,8 +9,7 @@ public class Ex05 {
 
     public static void main(String[] args) {
         
-        String words = "阿僧祇：那由多：不可思議：無量大数";
+        String words = "阿僧祇:那由多:不可思議:無量大数";
         
-
         }
     }
